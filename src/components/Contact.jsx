@@ -1,11 +1,18 @@
 import React from 'react';
+import { Container, Typography, Box } from '@mui/material';
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: evelaz4.93@gmail.com</p>
-    </section>
+    <Container maxWidth="md" id="contact">
+      <Box my={4}>
+        <Typography variant="h2" component="h1" gutterBottom>
+          Contact
+        </Typography>
+        <Typography variant="body1" component="p" gutterBottom>
+          Email: evelaz4.93@gmail.com
+        </Typography>
+      </Box>
+    </Container>
   );
 };
 

@@ -62,3 +62,21 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* src/App.css */
+.App {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+/* src/App.css */
+.App {
+  display: flex;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}

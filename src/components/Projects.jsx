@@ -1,18 +1,31 @@
 import React from 'react';
+import { Container, Typography, Box } from '@mui/material';
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
-      <div>
-        <h3>Project 1</h3>
-        <p>Details about project 1.</p>
-      </div>
-      <div>
-        <h3>Project 2</h3>
-        <p>Details about project 2.</p>
-      </div>
-    </section>
+    <Container maxWidth="md" id="projects">
+      <Box my={4}>
+        <Typography variant="h2" component="h1" gutterBottom>
+          Projects
+        </Typography>
+        <Box>
+          <Typography variant="h4" component="h3">
+            Project 1
+          </Typography>
+          <Typography variant="body1" component="p">
+            Details about project 1.
+          </Typography>
+        </Box>
+        <Box mt={2}>
+          <Typography variant="h4" component="h3">
+            Project 2
+          </Typography>
+          <Typography variant="body1" component="p">
+            Details about project 2.
+          </Typography>
+        </Box>
+      </Box>
+    </Container>
   );
 };
 
