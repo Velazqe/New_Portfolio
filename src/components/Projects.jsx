@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
+import { Container, Typography, Box, Link } from '@mui/material';
 
 const Projects = () => {
   return (
@@ -10,18 +10,22 @@ const Projects = () => {
         </Typography>
         <Box>
           <Typography variant="h4" component="h3">
-            Project 1
+            <Link href="https://github.com/Velazqe/Tech-Blog" target="_blank" rel="noopener noreferrer" underline="none" color="primary">
+              Tech Blog
+            </Link>
           </Typography>
           <Typography variant="body1" component="p">
-            Details about project 1.
+            Website where you can make blog post about everything tech!
           </Typography>
         </Box>
         <Box mt={2}>
           <Typography variant="h4" component="h3">
-            Project 2
+          <Link href="https://github.com/Velazqe/Illuminears" target="_blank" rel="noopener noreferrer" underline="none" color="primary">
+              Illuminears Quest
+            </Link>
           </Typography>
           <Typography variant="body1" component="p">
-            Details about project 2.
+            Inrercative deck builder for the popular DIsney trading card game Lorcana. 
           </Typography>
         </Box>
       </Box>

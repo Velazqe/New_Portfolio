@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography, Box } from '@mui/material';
+import { Container, Typography, Box, Link } from '@mui/material';
 
 const Contact = () => {
   return (
@@ -10,6 +10,11 @@ const Contact = () => {
         </Typography>
         <Typography variant="body1" component="p" gutterBottom>
           Email: evelaz4.93@gmail.com
+        </Typography>
+        <Typography variant='body1' component='p' gutterBottom>
+        <Link href="https://github.com/Velazqe" target="_blank" rel="noopener noreferrer" underline="none" color="primary">
+              Emanuel Velazquez Github
+            </Link>
         </Typography>
       </Box>
     </Container>
