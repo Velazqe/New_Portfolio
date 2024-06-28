@@ -8,19 +8,19 @@ import { CardActionArea } from '@mui/material';
 
 const ProjectCard = ({ title, description, link }) => {
   return (
-    <Card sx={{ maxWidth: 345, maxHeight: 300}}>
+    <Card sx={{ maxWidth: 345, maxHeight: 300}} id="projectCard">
       <CardActionArea>
       <CardContent>
         <Typography variant="h5" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" id="description">
           {description}
         </Typography>
       </CardContent>
       </CardActionArea>
         <Button size="small" href={link} target="_blank" rel="noopener noreferrer">
-          Learn More
+          GitHub Repository
         </Button>
     </Card>
   );
