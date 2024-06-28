@@ -1,5 +1,7 @@
 .App {
+  display: flex;
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -36,10 +38,7 @@
     transform: rotate(360deg);
   }
 }
-/* src/App.css */
-.App {
-  text-align: center;
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -62,21 +61,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* src/App.css */
-.App {
-  display: flex;
-}
-
 main {
   flex-grow: 1;
   padding: 20px;
 }
-/* src/App.css */
-.App {
-  display: flex;
-}
 
-main {
-  flex-grow: 1;
-  padding: 20px;
+#main {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
 }

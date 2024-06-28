@@ -10,6 +10,7 @@ import { CssBaseline, Box } from '@mui/material';
 import { styled } from '@mui/system';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import 'bulma/css/bulma.min.css';
 
 const drawerWidth = 240;  // Define drawerWidth here
 
@@ -31,7 +32,7 @@ function App() {
       <div className="App">
         <CssBaseline />
         <Sidebar />
-        <MainContent component="main" sx={{ ml: isMobile ? 0 : `${drawerWidth}px` }}>
+        <MainContent id='main' component="main" sx={{ ml: isMobile ? 0 : `${drawerWidth}px` }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
